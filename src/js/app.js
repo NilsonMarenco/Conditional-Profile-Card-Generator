@@ -34,7 +34,7 @@ function render(variables = {}) {
             ${cover}
             <img src="${variables.avatarURL}" class="photo" />
             <h1>${variables.name ? variables.name : "Name"} ${
-    variables.lastName ? variables.lastName : "Last name"
+    variables.lastName ? variables.lastName : "Lastname"
   }</h1>
             <h2>${variables.role ? variables.role : "Role"}</h2>
             <h3>${variables.city ? variables.city : "City"}, ${
@@ -70,7 +70,7 @@ window.onload = function() {
     // this is the url for the profile avatar
     avatarURL: "https://avatars.githubusercontent.com/u/137912131?v=4",
     // social media bar position (left or right)
-    socialMediaPosition: "position-left",
+    socialMediaPosition: "position-right",
     // social media usernames
     twitter: null,
     github: null,
